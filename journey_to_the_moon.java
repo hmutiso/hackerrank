@@ -1,11 +1,3 @@
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Scanner;
-
 /*
  * Solution to the HackerRank problem:
  * https://www.hackerrank.com/challenges/journey-to-the-moon/problem
@@ -24,6 +16,15 @@ import java.util.Scanner;
  * and 3 are also from the same country. Therefore, astronauts by country are [0] and
  * [1, 2, 3]. The UN can choose from 3 pairs of astronauts: [0, 1], [0,2] and [0,3].
  */
+
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Solution {
 
     private static int dfs(int astroID, Map<Integer, Set<Integer>> adjacencyList, boolean[] visited) {
