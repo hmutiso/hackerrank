@@ -1,2 +1,2 @@
 # hackerrank
-Solutions to interesting HackerRank problems
+Solutions to interesting HackerRank problems. All Solutions are written in Java.
