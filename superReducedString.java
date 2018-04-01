@@ -9,18 +9,19 @@
  * value. For example, string "aabcc" would become either "aab" or "bcc" after
  * 1 operation.
  *
- * Steve wants to reduce 's' as much as possible. To do this, he will repeat the
- * above operation as many times as it can be performed. Help Steve out by
- * finding and printing s in its non-reducible form!
+ * Steve wants to reduce 's' as much as possible. To do this, he will repeat
+ * the above operation as many times as it can be performed. Help Steve out
+ * by finding and printing 's' in its non-reducible form!
  * 
- * Note: If the final string is empty, print Empty String .
+ * Note: If the final string is empty, print "Empty String".
  *
  * Sample Input: aaabccddd
  * Sample Output: abd
  *
  * Explanation:
  *
- * Steve can perform the following sequence of operations to get the final string:
+ * Steve can perform the following sequence of operations to get the final
+ * string:
  *
  * aaabccddd → abccddd
  * abccddd → abddd
