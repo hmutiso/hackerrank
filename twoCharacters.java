@@ -33,6 +33,9 @@ public class Solution {
      * without altering the string in any way. If such a string cannot be
      * constructed, return 0.
      *
+     * Time complexity: O(n) : have to iterate over the entire input string 's'.
+     * Space complexity: O(1) : only need 3 additional variables.
+     *
      * Initially, I used a stack as follows: push instances of 'c1' and 'c2' onto
      * a stack. If the current char in the string 's' is the same as the char at
      * the top of the stack, then a string of alternating chars is not possible,
